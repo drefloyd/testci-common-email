@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Run tests
-      run: mvn clean test
+      run: -f pom.xml mvn clean test
